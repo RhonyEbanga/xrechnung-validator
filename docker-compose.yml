@@ -1,0 +1,24 @@
+
+
+services:
+  kosit-validator:
+    image: eclipse-temurin:21-jre
+    volumes:
+      - ./kosit-config:/app
+    working_dir: /app
+    command: >
+      java -jar validator-1.6.2-standalone.jar
+      --scenarios /app/xrechnung-3.0.2-validator-configuration-2026-01-31/scenarios.xml
+      --repository /app/xrechnung-3.0.2-validator-configuration-2026-01-31
+      --daemon
+      --host 0.0.0.0
+      --port 8080
+
+  webapp:
+    build: ./validator-app
+    ports:
+      - "5000:8080"
+    environment:
+      - KOSIT_URL=http://kosit-validator:8080
+    depends_on:
+      - kosit-validator

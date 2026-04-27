@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "JqUT+3VvQ2O/j0CItvndT2UmsPD6yvoY0j8r1llxeDs=",
+  "Source": "validator-app",
+  "BasePath": "_content/validator-app",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
