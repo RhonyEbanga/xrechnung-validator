@@ -60,8 +60,7 @@ public async Task<IActionResult> Validate(IFormFile file)
             Errors = s.Descendants(ns + "error").Count(),
             Warnings = s.Descendants(ns + "warning").Count()
         }).ToList();
-
-    var syntaxStep = steps.FirstOrDefault(s => 
+var syntaxStep = steps.FirstOrDefault(s =>  
         s.Name.Contains("val-xsd") || s.Name.Contains("xml"));
     
     var en16931Step = steps.FirstOrDefault(s => 
