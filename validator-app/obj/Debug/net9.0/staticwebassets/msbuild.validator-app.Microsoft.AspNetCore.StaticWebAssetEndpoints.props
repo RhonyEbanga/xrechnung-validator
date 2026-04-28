@@ -1,0 +1,16 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/validator-app/index.8ki76k4ii3.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"8ki76k4ii3"},{"Name":"integrity","Value":"sha256-uK\u002BuAexVHqVcYJjpqL\u002B9\u002B8MlxHFzji3JFJV\u002BVIfuOag="},{"Name":"label","Value":"_content/validator-app/index.html"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"7839"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022uK\u002BuAexVHqVcYJjpqL\u002B9\u002B8MlxHFzji3JFJV\u002BVIfuOag=\u0022"},{"Name":"Last-Modified","Value":"Tue, 21 Apr 2026 11:01:30 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/validator-app/index.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-uK\u002BuAexVHqVcYJjpqL\u002B9\u002B8MlxHFzji3JFJV\u002BVIfuOag="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"7839"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022uK\u002BuAexVHqVcYJjpqL\u002B9\u002B8MlxHFzji3JFJV\u002BVIfuOag=\u0022"},{"Name":"Last-Modified","Value":"Tue, 21 Apr 2026 11:01:30 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>

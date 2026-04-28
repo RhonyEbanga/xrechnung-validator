@@ -26,3 +26,6 @@ C:\Users\rhony\Desktop\xrechnung-validator\validator-app\obj\Debug\net9.0\refint
 C:\Users\rhony\Desktop\xrechnung-validator\validator-app\obj\Debug\net9.0\validator-app.pdb
 C:\Users\rhony\Desktop\xrechnung-validator\validator-app\obj\Debug\net9.0\validator-app.genruntimeconfig.cache
 C:\Users\rhony\Desktop\xrechnung-validator\validator-app\obj\Debug\net9.0\ref\validator-app.dll
+C:\Users\rhony\Desktop\xrechnung-validator\validator-app\bin\Debug\net9.0\validator-app.staticwebassets.runtime.json
+C:\Users\rhony\Desktop\xrechnung-validator\validator-app\obj\Debug\net9.0\validator-app.sourcelink.json
+C:\Users\rhony\Desktop\xrechnung-validator\validator-app\obj\Debug\net9.0\compressed\faczqiq5cf-8ki76k4ii3.gz

@@ -1,12 +1,362 @@
 {
   "Version": 1,
-  "Hash": "JqUT+3VvQ2O/j0CItvndT2UmsPD6yvoY0j8r1llxeDs=",
+  "Hash": "M+/0H39bmuJrXZ6TtGfTq5xQhwe1H25S4/HMImL5Tq4=",
   "Source": "validator-app",
   "BasePath": "_content/validator-app",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "validator-app\\wwwroot",
+      "Source": "validator-app",
+      "ContentRoot": "C:\\Users\\rhony\\Desktop\\xrechnung-validator\\validator-app\\wwwroot\\",
+      "BasePath": "_content/validator-app",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\rhony\\Desktop\\xrechnung-validator\\validator-app\\obj\\Debug\\net9.0\\compressed\\faczqiq5cf-8ki76k4ii3.gz",
+      "SourceId": "validator-app",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rhony\\Desktop\\xrechnung-validator\\validator-app\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/validator-app",
+      "RelativePath": "index#[.{fingerprint=8ki76k4ii3}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\rhony\\Desktop\\xrechnung-validator\\validator-app\\wwwroot\\index.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "nwvaucia4n",
+      "Integrity": "B+4VTfo33z5omwLVpgLPbM25Iult+kdjW3xAOMSk8mY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\rhony\\Desktop\\xrechnung-validator\\validator-app\\wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\rhony\\Desktop\\xrechnung-validator\\validator-app\\wwwroot\\index.html",
+      "SourceId": "validator-app",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rhony\\Desktop\\xrechnung-validator\\validator-app\\wwwroot\\",
+      "BasePath": "_content/validator-app",
+      "RelativePath": "index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8ki76k4ii3",
+      "Integrity": "uK+uAexVHqVcYJjpqL+9+8MlxHFzji3JFJV+VIfuOag=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "index.8ki76k4ii3.html",
+      "AssetFile": "C:\\Users\\rhony\\Desktop\\xrechnung-validator\\validator-app\\obj\\Debug\\net9.0\\compressed\\faczqiq5cf-8ki76k4ii3.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000471920717"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2118"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"B+4VTfo33z5omwLVpgLPbM25Iult+kdjW3xAOMSk8mY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 21 Apr 2026 11:01:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"uK+uAexVHqVcYJjpqL+9+8MlxHFzji3JFJV+VIfuOag=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8ki76k4ii3"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-uK+uAexVHqVcYJjpqL+9+8MlxHFzji3JFJV+VIfuOag="
+        }
+      ]
+    },
+    {
+      "Route": "index.8ki76k4ii3.html",
+      "AssetFile": "C:\\Users\\rhony\\Desktop\\xrechnung-validator\\validator-app\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7839"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uK+uAexVHqVcYJjpqL+9+8MlxHFzji3JFJV+VIfuOag=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 21 Apr 2026 11:01:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8ki76k4ii3"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-uK+uAexVHqVcYJjpqL+9+8MlxHFzji3JFJV+VIfuOag="
+        }
+      ]
+    },
+    {
+      "Route": "index.8ki76k4ii3.html.gz",
+      "AssetFile": "C:\\Users\\rhony\\Desktop\\xrechnung-validator\\validator-app\\obj\\Debug\\net9.0\\compressed\\faczqiq5cf-8ki76k4ii3.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2118"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"B+4VTfo33z5omwLVpgLPbM25Iult+kdjW3xAOMSk8mY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 21 Apr 2026 11:01:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8ki76k4ii3"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-B+4VTfo33z5omwLVpgLPbM25Iult+kdjW3xAOMSk8mY="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\Users\\rhony\\Desktop\\xrechnung-validator\\validator-app\\obj\\Debug\\net9.0\\compressed\\faczqiq5cf-8ki76k4ii3.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000471920717"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2118"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"B+4VTfo33z5omwLVpgLPbM25Iult+kdjW3xAOMSk8mY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 21 Apr 2026 11:01:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"uK+uAexVHqVcYJjpqL+9+8MlxHFzji3JFJV+VIfuOag=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-uK+uAexVHqVcYJjpqL+9+8MlxHFzji3JFJV+VIfuOag="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\Users\\rhony\\Desktop\\xrechnung-validator\\validator-app\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7839"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uK+uAexVHqVcYJjpqL+9+8MlxHFzji3JFJV+VIfuOag=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 21 Apr 2026 11:01:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-uK+uAexVHqVcYJjpqL+9+8MlxHFzji3JFJV+VIfuOag="
+        }
+      ]
+    },
+    {
+      "Route": "index.html.gz",
+      "AssetFile": "C:\\Users\\rhony\\Desktop\\xrechnung-validator\\validator-app\\obj\\Debug\\net9.0\\compressed\\faczqiq5cf-8ki76k4ii3.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2118"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"B+4VTfo33z5omwLVpgLPbM25Iult+kdjW3xAOMSk8mY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 21 Apr 2026 11:01:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-B+4VTfo33z5omwLVpgLPbM25Iult+kdjW3xAOMSk8mY="
+        }
+      ]
+    }
+  ]
 }
