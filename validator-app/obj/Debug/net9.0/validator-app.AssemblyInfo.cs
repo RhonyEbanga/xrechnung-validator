@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("validator-app")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e250745f84af56af1a1ffd0b4b523745b44438e0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+efbc8632325b45db4b69b37ee791c6a5c9e1c8ca")]
 [assembly: System.Reflection.AssemblyProductAttribute("validator-app")]
 [assembly: System.Reflection.AssemblyTitleAttribute("validator-app")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
